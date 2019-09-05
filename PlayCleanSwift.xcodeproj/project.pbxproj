@@ -3,19 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86482C962320A500006F04D2 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C902320A500006F04D2 /* SearchPresenter.swift */; };
+		86482C972320A500006F04D2 /* SearchWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C912320A500006F04D2 /* SearchWorker.swift */; };
+		86482C982320A500006F04D2 /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C922320A500006F04D2 /* SearchRouter.swift */; };
+		86482C992320A500006F04D2 /* SearchModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C932320A500006F04D2 /* SearchModels.swift */; };
+		86482C9A2320A500006F04D2 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C942320A500006F04D2 /* SearchViewController.swift */; };
+		86482C9B2320A500006F04D2 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86482C952320A500006F04D2 /* SearchInteractor.swift */; };
+		86A709DC232155B100E6D18C /* FoodDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709D6232155B100E6D18C /* FoodDetailPresenter.swift */; };
+		86A709DD232155B100E6D18C /* FoodDetailWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709D7232155B100E6D18C /* FoodDetailWorker.swift */; };
+		86A709DE232155B100E6D18C /* FoodDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709D8232155B100E6D18C /* FoodDetailRouter.swift */; };
+		86A709DF232155B100E6D18C /* FoodDetailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709D9232155B100E6D18C /* FoodDetailModels.swift */; };
+		86A709E0232155B100E6D18C /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709DA232155B100E6D18C /* FoodDetailViewController.swift */; };
+		86A709E1232155B100E6D18C /* FoodDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A709DB232155B100E6D18C /* FoodDetailInteractor.swift */; };
 		86C8D405231F5EFA0039D90A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D404231F5EFA0039D90A /* AppDelegate.swift */; };
 		86C8D407231F5EFA0039D90A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D406231F5EFA0039D90A /* ViewController.swift */; };
 		86C8D40A231F5EFA0039D90A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C8D408231F5EFA0039D90A /* Main.storyboard */; };
 		86C8D40D231F5EFA0039D90A /* PlayCleanSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D40B231F5EFA0039D90A /* PlayCleanSwift.xcdatamodeld */; };
 		86C8D40F231F5EFC0039D90A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86C8D40E231F5EFC0039D90A /* Assets.xcassets */; };
 		86C8D412231F5EFC0039D90A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86C8D410231F5EFC0039D90A /* LaunchScreen.storyboard */; };
+		86C8D422231F5F3A0039D90A /* LoginPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D41C231F5F3A0039D90A /* LoginPresenter.swift */; };
+		86C8D423231F5F3A0039D90A /* LoginWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D41D231F5F3A0039D90A /* LoginWorker.swift */; };
+		86C8D424231F5F3A0039D90A /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D41E231F5F3A0039D90A /* LoginRouter.swift */; };
+		86C8D425231F5F3A0039D90A /* LoginModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D41F231F5F3A0039D90A /* LoginModels.swift */; };
+		86C8D426231F5F3A0039D90A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D420231F5F3A0039D90A /* LoginViewController.swift */; };
+		86C8D427231F5F3A0039D90A /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D421231F5F3A0039D90A /* LoginInteractor.swift */; };
+		86C8D42E231F5F570039D90A /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D428231F5F570039D90A /* HomePresenter.swift */; };
+		86C8D42F231F5F570039D90A /* HomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D429231F5F570039D90A /* HomeWorker.swift */; };
+		86C8D430231F5F570039D90A /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D42A231F5F570039D90A /* HomeRouter.swift */; };
+		86C8D431231F5F570039D90A /* HomeModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D42B231F5F570039D90A /* HomeModels.swift */; };
+		86C8D432231F5F570039D90A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D42C231F5F570039D90A /* HomeViewController.swift */; };
+		86C8D433231F5F570039D90A /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C8D42D231F5F570039D90A /* HomeInteractor.swift */; };
+		C561BADA14E76833BF130AE4 /* Pods_PlayCleanSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4886C4920B63F93E62EA480 /* Pods_PlayCleanSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		244909A49ABB077383322902 /* Pods-PlayCleanSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayCleanSwift.release.xcconfig"; path = "Target Support Files/Pods-PlayCleanSwift/Pods-PlayCleanSwift.release.xcconfig"; sourceTree = "<group>"; };
+		86482C902320A500006F04D2 /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		86482C912320A500006F04D2 /* SearchWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWorker.swift; sourceTree = "<group>"; };
+		86482C922320A500006F04D2 /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		86482C932320A500006F04D2 /* SearchModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModels.swift; sourceTree = "<group>"; };
+		86482C942320A500006F04D2 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		86482C952320A500006F04D2 /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		86A709D6232155B100E6D18C /* FoodDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailPresenter.swift; sourceTree = "<group>"; };
+		86A709D7232155B100E6D18C /* FoodDetailWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailWorker.swift; sourceTree = "<group>"; };
+		86A709D8232155B100E6D18C /* FoodDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailRouter.swift; sourceTree = "<group>"; };
+		86A709D9232155B100E6D18C /* FoodDetailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailModels.swift; sourceTree = "<group>"; };
+		86A709DA232155B100E6D18C /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		86A709DB232155B100E6D18C /* FoodDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailInteractor.swift; sourceTree = "<group>"; };
 		86C8D401231F5EFA0039D90A /* PlayCleanSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayCleanSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86C8D404231F5EFA0039D90A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86C8D406231F5EFA0039D90A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +62,20 @@
 		86C8D40E231F5EFC0039D90A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86C8D411231F5EFC0039D90A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86C8D413231F5EFC0039D90A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86C8D41C231F5F3A0039D90A /* LoginPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPresenter.swift; sourceTree = "<group>"; };
+		86C8D41D231F5F3A0039D90A /* LoginWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorker.swift; sourceTree = "<group>"; };
+		86C8D41E231F5F3A0039D90A /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		86C8D41F231F5F3A0039D90A /* LoginModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModels.swift; sourceTree = "<group>"; };
+		86C8D420231F5F3A0039D90A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		86C8D421231F5F3A0039D90A /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		86C8D428231F5F570039D90A /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		86C8D429231F5F570039D90A /* HomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWorker.swift; sourceTree = "<group>"; };
+		86C8D42A231F5F570039D90A /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
+		86C8D42B231F5F570039D90A /* HomeModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModels.swift; sourceTree = "<group>"; };
+		86C8D42C231F5F570039D90A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		86C8D42D231F5F570039D90A /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		C27EC0054F114747631E49B4 /* Pods-PlayCleanSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlayCleanSwift.debug.xcconfig"; path = "Target Support Files/Pods-PlayCleanSwift/Pods-PlayCleanSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		D4886C4920B63F93E62EA480 /* Pods_PlayCleanSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlayCleanSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C561BADA14E76833BF130AE4 /* Pods_PlayCleanSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86482C8F2320A4D5006F04D2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				86482C902320A500006F04D2 /* SearchPresenter.swift */,
+				86482C912320A500006F04D2 /* SearchWorker.swift */,
+				86482C922320A500006F04D2 /* SearchRouter.swift */,
+				86482C932320A500006F04D2 /* SearchModels.swift */,
+				86482C942320A500006F04D2 /* SearchViewController.swift */,
+				86482C952320A500006F04D2 /* SearchInteractor.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		86A709D52321559700E6D18C /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				86A709D6232155B100E6D18C /* FoodDetailPresenter.swift */,
+				86A709D7232155B100E6D18C /* FoodDetailWorker.swift */,
+				86A709D8232155B100E6D18C /* FoodDetailRouter.swift */,
+				86A709D9232155B100E6D18C /* FoodDetailModels.swift */,
+				86A709DA232155B100E6D18C /* FoodDetailViewController.swift */,
+				86A709DB232155B100E6D18C /* FoodDetailInteractor.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		86C8D3F8231F5EFA0039D90A = {
 			isa = PBXGroup;
 			children = (
 				86C8D403231F5EFA0039D90A /* PlayCleanSwift */,
 				86C8D402231F5EFA0039D90A /* Products */,
+				A1310AC9B456F6C2AAAB5D9B /* Pods */,
+				BA2ABA4CF228C7292D138601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +137,7 @@
 		86C8D403231F5EFA0039D90A /* PlayCleanSwift */ = {
 			isa = PBXGroup;
 			children = (
+				86C8D41B231F5F200039D90A /* Scenes */,
 				86C8D404231F5EFA0039D90A /* AppDelegate.swift */,
 				86C8D406231F5EFA0039D90A /* ViewController.swift */,
 				86C8D408231F5EFA0039D90A /* Main.storyboard */,
@@ -67,6 +149,60 @@
 			path = PlayCleanSwift;
 			sourceTree = "<group>";
 		};
+		86C8D419231F5F080039D90A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				86C8D41C231F5F3A0039D90A /* LoginPresenter.swift */,
+				86C8D41D231F5F3A0039D90A /* LoginWorker.swift */,
+				86C8D41E231F5F3A0039D90A /* LoginRouter.swift */,
+				86C8D41F231F5F3A0039D90A /* LoginModels.swift */,
+				86C8D420231F5F3A0039D90A /* LoginViewController.swift */,
+				86C8D421231F5F3A0039D90A /* LoginInteractor.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		86C8D41A231F5F120039D90A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				86C8D428231F5F570039D90A /* HomePresenter.swift */,
+				86C8D429231F5F570039D90A /* HomeWorker.swift */,
+				86C8D42A231F5F570039D90A /* HomeRouter.swift */,
+				86C8D42B231F5F570039D90A /* HomeModels.swift */,
+				86C8D42C231F5F570039D90A /* HomeViewController.swift */,
+				86C8D42D231F5F570039D90A /* HomeInteractor.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		86C8D41B231F5F200039D90A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				86A709D52321559700E6D18C /* Detail */,
+				86482C8F2320A4D5006F04D2 /* Search */,
+				86C8D419231F5F080039D90A /* Login */,
+				86C8D41A231F5F120039D90A /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		A1310AC9B456F6C2AAAB5D9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C27EC0054F114747631E49B4 /* Pods-PlayCleanSwift.debug.xcconfig */,
+				244909A49ABB077383322902 /* Pods-PlayCleanSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA2ABA4CF228C7292D138601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4886C4920B63F93E62EA480 /* Pods_PlayCleanSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86C8D416231F5EFC0039D90A /* Build configuration list for PBXNativeTarget "PlayCleanSwift" */;
 			buildPhases = (
+				38867DEBCE0DB4187529993A /* [CP] Check Pods Manifest.lock */,
 				86C8D3FD231F5EFA0039D90A /* Sources */,
 				86C8D3FE231F5EFA0039D90A /* Frameworks */,
 				86C8D3FF231F5EFA0039D90A /* Resources */,
+				10E877DD60E3D6147FC484F3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +271,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		10E877DD60E3D6147FC484F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayCleanSwift/Pods-PlayCleanSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PlayCleanSwift/Pods-PlayCleanSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PlayCleanSwift/Pods-PlayCleanSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38867DEBCE0DB4187529993A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PlayCleanSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86C8D3FD231F5EFA0039D90A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86C8D423231F5F3A0039D90A /* LoginWorker.swift in Sources */,
+				86A709E0232155B100E6D18C /* FoodDetailViewController.swift in Sources */,
+				86482C982320A500006F04D2 /* SearchRouter.swift in Sources */,
+				86A709E1232155B100E6D18C /* FoodDetailInteractor.swift in Sources */,
+				86A709DF232155B100E6D18C /* FoodDetailModels.swift in Sources */,
+				86C8D430231F5F570039D90A /* HomeRouter.swift in Sources */,
+				86482C9A2320A500006F04D2 /* SearchViewController.swift in Sources */,
+				86482C962320A500006F04D2 /* SearchPresenter.swift in Sources */,
+				86C8D422231F5F3A0039D90A /* LoginPresenter.swift in Sources */,
+				86482C9B2320A500006F04D2 /* SearchInteractor.swift in Sources */,
+				86C8D433231F5F570039D90A /* HomeInteractor.swift in Sources */,
+				86482C972320A500006F04D2 /* SearchWorker.swift in Sources */,
+				86C8D425231F5F3A0039D90A /* LoginModels.swift in Sources */,
+				86C8D42E231F5F570039D90A /* HomePresenter.swift in Sources */,
+				86C8D432231F5F570039D90A /* HomeViewController.swift in Sources */,
+				86C8D42F231F5F570039D90A /* HomeWorker.swift in Sources */,
+				86C8D424231F5F3A0039D90A /* LoginRouter.swift in Sources */,
+				86C8D426231F5F3A0039D90A /* LoginViewController.swift in Sources */,
 				86C8D40D231F5EFA0039D90A /* PlayCleanSwift.xcdatamodeld in Sources */,
 				86C8D407231F5EFA0039D90A /* ViewController.swift in Sources */,
+				86482C992320A500006F04D2 /* SearchModels.swift in Sources */,
 				86C8D405231F5EFA0039D90A /* AppDelegate.swift in Sources */,
+				86A709DC232155B100E6D18C /* FoodDetailPresenter.swift in Sources */,
+				86C8D427231F5F3A0039D90A /* LoginInteractor.swift in Sources */,
+				86A709DE232155B100E6D18C /* FoodDetailRouter.swift in Sources */,
+				86A709DD232155B100E6D18C /* FoodDetailWorker.swift in Sources */,
+				86C8D431231F5F570039D90A /* HomeModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +488,7 @@
 		};
 		86C8D417231F5EFC0039D90A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27EC0054F114747631E49B4 /* Pods-PlayCleanSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +507,7 @@
 		};
 		86C8D418231F5EFC0039D90A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244909A49ABB077383322902 /* Pods-PlayCleanSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
